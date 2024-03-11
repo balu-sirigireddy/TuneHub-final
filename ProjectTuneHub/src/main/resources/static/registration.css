@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url("../images/indexbackground.jpg"); /* Replace 'background.jpg' with the path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.logo {
+  height: 100px;
+  width: 200px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Adding a subtle shadow effect */
+  border-radius: 10px; /* Adding rounded corners */
+  transition: transform 0.3s ease; /* Adding a smooth transition effect */
+}
+
+/* Hover effect for the logo */
+.logo:hover {
+  transform: scale(1.1); /* Enlarging the logo on hover */
+}
+h2{
+	
+	color:#333;
+	font-size: 40px;
+}
+
+form{
+	text-align: center;
+	margin:50px auto;
+	padding:10px;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	width:500px;
+	
+}
+label{
+	font-weight: Bold;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="radio"],
+input[type="submit"]{
+	border:1px solid #333;
+	border-radius: 2px;
+	padding:10px;
+	 box-sizing: border-box;
+	
+}
+#address{
+	border:1px solid #333;
+	border-radius: 2px;
+	padding:10px;
+	 box-sizing: border-box;
+	 width:60%;
+}
+input[type="submit"]{
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width:40%;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"]
+{
+	width:80%;
+}
+input[type="submit"]:hover{
+	background-color: #300060;
+	
+}
+
+
+
+

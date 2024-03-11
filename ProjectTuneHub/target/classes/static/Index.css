@@ -1,0 +1,61 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url("../images/indexbackground.jpg"); /* Replace 'background.jpg' with the path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.logo {
+  height: 100px;
+  width: 200px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Adding a subtle shadow effect */
+  border-radius: 10px; /* Adding rounded corners */
+  transition: transform 0.3s ease; /* Adding a smooth transition effect */
+}
+
+/* Hover effect for the logo */
+.logo:hover {
+  transform: scale(1.1); /* Enlarging the logo on hover */
+}
+
+/* Heading styles */
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+/* Container styles */
+div {
+    text-align:center;
+  width: 250px;
+  margin: 50px auto;
+ /*  background-color: #eeeeee; */
+  padding: 70px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+/* Anchor tag styles */
+a {
+    color: #fff;
+    background-color:#007bff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    
+    padding: 5px 20px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    
+}
+
+/* Anchor tag hover styles */
+a:hover {
+    background-color: #333;
+    color: #fff;
+}

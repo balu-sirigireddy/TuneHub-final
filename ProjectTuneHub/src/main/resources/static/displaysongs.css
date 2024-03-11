@@ -1,0 +1,48 @@
+/* displaysongs.css */
+
+/* Resetting default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+   
+}
+
+/* Logo styling */
+.logo {
+    height: 100px;
+    width: 200px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Adding a subtle shadow effect */
+    border-radius: 10px; /* Adding rounded corners */
+    transition: transform 0.3s ease; /* Adding a smooth transition effect */
+}
+
+/* Hover effect for the logo */
+.logo:hover {
+    transform: scale(1.1); /* Enlarging the logo on hover */
+}
+
+/* Table styling (if necessary, otherwise this can be removed) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Play button styling */
+audio {
+    display: block;
+    margin: 10px auto; /* Adjust margin as needed */
+}

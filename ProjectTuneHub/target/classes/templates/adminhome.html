@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ADMIN HOME</title>
+<link rel=stylesheet th:href="@{/adminhome.css}">
+</head>
+<body>
+	<img class="logo" src="/images/logo.png">
+	<div class="div">
+	<p>Admin Home</p>
+	<form action="newsong">
+	
+	<input type="submit" value="ADD SONGS">
+	</form>
+	
+	<!-- <a href="newsong"> Add a new song </a> -->
+	
+	<br><br>
+	
+	<form action="viewsongs">
+	<input type="submit" value="VIEW SONGS">
+	</form>
+	
+	<br><br>
+	
+	<form action="createplaylists">
+	<input type="submit" value="CREATE PLAYLIST">
+	</form>
+	
+	<br><br>
+	<form action="viewplaylists">
+	<input type="submit" value="VIEW PLAYLISTS">
+	</form>
+</div>
+<div class="logout-button">
+    <form id="logoutForm" action="logout" >
+        <input type="submit" value="LOGOUT">
+    </form>
+</div>
+
+<script th:inline="javascript">
+    /*<![CDATA[*/
+    document.getElementById('logoutForm').addEventListener('submit', function(event) {
+        var confirmation = confirm("Are you sure you want to logout?");
+        if (!confirmation) {
+            event.preventDefault(); // Prevent form submission if user cancels logout
+        }
+    });
+    /*]]>*/
+</script>
+</body>
+</html>
